@@ -1,0 +1,24 @@
+name: halloween_story
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.10
+  - pytorch>=1.11.0
+  - torchvision>=0.12.0
+  - pip
+  - pandas
+  - matplotlib
+  - pip:
+      - tqdm
+      - gymnasium
+      - numpy
+      - pandas
+      - langchain
+      - pydantic
+      - streamlit
+      - flask
+      - git+ssh://git@github.com/openai/swarm.git
+      - tavily-python
+      - python-dotenv
